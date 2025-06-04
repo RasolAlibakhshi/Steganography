@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="hidden file.exe" version="1.0.0.0" publicKeyToken="4822da5b52ce64a5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="hidden file" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="hidden file.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="hidden file.exe" size="15312">
+      <assemblyIdentity name="hidden file" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TV2rO1EXobeIrEhGzLtaOg11fqgC3Xv0A9MaCiwlKs0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="hidden file.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RASOL-LAPTOP\Rasol" issuerKeyHash="422acf4eb7a9dfdd8edea1cab680e127384f6dbc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WdOPJFS04OB2bsR/ed/vmouzD8z1707Jl0GDDoP0Gls=</DigestValue></Reference></SignedInfo><SignatureValue>F2wMD1O5iL94tHdqQnqqDm8NdzfKbUuchvGscClDUDMd87tTyWG8RXrlYbnRGZu8Ozm3j2tcPPcX3GhdOxnQHPgXsKTU9aNmmh4pM0JnMpRSatWBNar0MifDJ3qXxM6k08rCD+b/xwIb5cJ4bgLC7i0OutTepqD/ZcByxwsyhkI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pgDS6ybyBJbrYwR3bzOG1XVGBl4z0GqbpTMyE305YrnOmFI/Tw5QVM8dzBrFJRe6mKkuTOqtaJI5l90w1Et3Ktn5miHV2FcZPVH9+9Uz4A9NXABK8JwPHOb8UsBylh0RyQ2YNjv3TsXRRniWoHqcrl/GFWdBdFTNoewrmHTN/vk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5b1af4830e834197c94eeff5cc0fb38b9aefdf797fc46e76e0e0b454248fd359" Description="" Url=""><as:assemblyIdentity name="hidden file.exe" version="1.0.0.0" publicKeyToken="4822da5b52ce64a5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RASOL-LAPTOP\Rasol</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Qs4hO33NTNV4hHZ0SNBPuoNGhLvHUYmBkx3rj0Y8Di4=</DigestValue></Reference></SignedInfo><SignatureValue>nVJJRJPF6pNyv11txbllxesEmHg5ye8QGVnMDq/j0XAHYw2dwHOprXZg4J8AR2tGdp28D66/GXsEHcct07bhaYqQrV0yx1oW6sFwRLL1Eqk14HbBwHjvDx/rn8KpGtKKoUc18bYams6JWGreV1ewvsjHvAsJWviDs63FqCPk4Do=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pgDS6ybyBJbrYwR3bzOG1XVGBl4z0GqbpTMyE305YrnOmFI/Tw5QVM8dzBrFJRe6mKkuTOqtaJI5l90w1Et3Ktn5miHV2FcZPVH9+9Uz4A9NXABK8JwPHOb8UsBylh0RyQ2YNjv3TsXRRniWoHqcrl/GFWdBdFTNoewrmHTN/vk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQH233O1L1RbxO9E0wSOR19jANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAUgBBAFMATwBMAC0ATABBAFAAVABPAFAAXABSAGEAcwBvAGwwHhcNMjUwNjA0MDcyNjU2WhcNMjYwNjA0MTMyNjU2WjAvMS0wKwYDVQQDHiQAUgBBAFMATwBMAC0ATABBAFAAVABPAFAAXABSAGEAcwBvAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKYA0usm8gSW62MEd28zhtV1RgZeM9Bqm6UzMhN9OWK5zphSP08OUFTPHcwaxSUXupipLkzqrWiSOZfdMNRLdyrZ+Zoh1dhXGT1R/fvVM+APTVwASvCcDxzm/FLAcpYdEckNmDY7907F0UZ4lqB6nK5fxhVnQXRUzaHsK5h0zf75AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAisEsIX7HZViLo4pvWfLioWpRZdXTmPZXRZxhkiNW9w/hXpvhaWCx+HvWlBeQdGOe/sXgcGNOtL8Z1SX0MQLgIyVaOXcoAtxpRXkYSA5nj/WgAvwjTGv7Z2rpxNRNSEnf034WGZLKzfRrHcRejMyQPxqSx5ipQLuOD7lQmIVaDuY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

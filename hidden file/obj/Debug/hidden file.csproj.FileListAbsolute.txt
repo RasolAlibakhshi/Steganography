@@ -1,0 +1,14 @@
+C:\Users\Rasol\Desktop\hidden file\hidden file\bin\Debug\hidden file.exe.config
+C:\Users\Rasol\Desktop\hidden file\hidden file\bin\Debug\hidden file.exe
+C:\Users\Rasol\Desktop\hidden file\hidden file\bin\Debug\hidden file.pdb
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.csproj.AssemblyReference.cache
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden_file.Form1.resources
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden_file.Properties.Resources.resources
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.csproj.GenerateResource.cache
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.csproj.CoreCompileInputs.cache
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.exe
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.pdb
+C:\Users\Rasol\Desktop\hidden file\hidden file\bin\Debug\hidden file.exe.manifest
+C:\Users\Rasol\Desktop\hidden file\hidden file\bin\Debug\hidden file.application
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.exe.manifest
+C:\Users\Rasol\Desktop\hidden file\hidden file\obj\Debug\hidden file.application
